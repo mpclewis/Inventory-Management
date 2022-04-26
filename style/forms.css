@@ -1,0 +1,21 @@
+#loginForm {
+    margin:10px;
+}
+#loginForm form{
+    color:var(--main-bg-color);
+    text-align:center;
+    font-weight: bolder;
+    border-color:var(--main-bg-color);
+}
+#createUserForm form{
+    color:black;
+    text-align:center;
+    font-weight: bolder;
+    border-color:var(--main-bg-color);
+    margin:0;
+    border:0;
+    padding:0;
+}
+input{
+    margin:7px;
+}

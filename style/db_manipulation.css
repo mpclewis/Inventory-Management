@@ -1,0 +1,35 @@
+@import "forms.css";
+
+#db_manipulation {
+    position:relative;
+    left:10%;
+    width:80%;
+    border-radius: 4px;
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+
+#db_manipulation ul{
+    background-color:var(--main-bg-color);
+    color:white;
+    text-align:center;
+    border:solid 3px var(--button-selected);
+    border-radius:40px 0px 40px 0px;
+    margin:5px, 0px, 5px, 0px;
+    padding:0px;
+    position:relative;
+}
+
+#db_manipulation a{
+    color:white;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    width:40%;
+}
+
+#reportTable {
+    padding:7px;
+    border:solid;
+}

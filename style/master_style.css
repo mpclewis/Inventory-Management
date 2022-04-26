@@ -1,0 +1,87 @@
+:root{
+    --main-bg-color:#85CB33;
+    --secondary-bg-color:#EFFFC8;
+    --button-selected:rgb(0, 116, 19);
+}
+
+body {
+	font-weight: bold;
+	background-color:var(--secondary-bg-color);
+	font-family:"Arial";
+}
+#header  {
+	background-color:var(--main-bg-color);
+	border-radius: 40px 0px 0px 0px;
+	margin-bottom: 15px;
+	border-style:solid;
+	border-color:var(--button-selected);
+	text-align:center;
+	color:white;
+	padding:2px;
+	}
+#navigation {
+	background-color:var(--main-bg-color);
+	margin-top:0px;
+	border-radius:0px 0px 40px 0px;
+	border-style:solid;
+	border-color:var(--button-selected);
+	padding-left:30px;
+	}
+
+#navigation li {
+	background-color:var(--main-bg-color);
+	color:white;
+	padding:0px;
+	border:0px;
+	padding-left:10px;
+	display:inline-block;
+}
+#navigation a {
+	text-decoration: none;
+	color:white;
+	width:60px;
+	text-align:center;
+	font-weight:normal;
+}
+#navigation a:link {
+	background-color:var(--main-bg-color);
+}
+#navigation a:hover {
+	color:rgb(3, 70, 6);
+}
+#navigation ul {
+	float:left;
+	width:60px;
+}
+.content{
+	margin:10px;
+	width:80%;
+	position:absolute;
+	left:10%;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.settingsButtons ul{
+    background-color:var(--main-bg-color);
+    color:white;
+    text-align:center;
+    border:solid 3px var(--button-selected);
+    margin:5px, 0px, 5px, 0px;
+    padding:0px;
+    position:relative;
+}
+.settingsButtons a{
+    color:white;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    width:40%;
+}
+
+footer {
+	position: absolute;
+	left: 30px;
+	bottom: 10px;
+}
